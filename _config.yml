@@ -66,3 +66,6 @@ exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md,
 # compress CSS output
 sass:
   style: compressed
+#
+# Linkleri otomatik tanıması için
+url-fields: ["Çalışma Linki", "Çalışma Yürütücüsü, Yazarı CV Link"]
