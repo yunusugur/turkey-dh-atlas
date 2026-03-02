@@ -66,10 +66,13 @@ exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md,
 # compress CSS output
 sass:
   style: compressed
-
+#
 # Linkleri otomatik tanıması için
 url-fields: ["Çalışma Linki", "Çalışma Yürütücüsü, Yazarı CV Link"]
-
+#
 # Çoklu değerleri ayırmak için ayraç tanımlama
 metadata-facets-fields: "format, Kurum Ülke, Alan, Yöntem, Etiketler (Alt yöntem, dönem, dil vs)"
 metadata-facets-delimiter: "; "
+#
+# Tıklanabilir olmasını istediğiniz alanları buraya ekleyin
+metadata-facets-fields: "format, Kurum Ülke, Alan, Yöntem"
