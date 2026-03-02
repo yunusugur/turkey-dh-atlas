@@ -67,12 +67,11 @@ exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md,
 sass:
   style: compressed
 #
-# Linkleri otomatik tanıması için
-url-fields: ["Çalışma Linki", "Çalışma Yürütücüsü, Yazarı CV Link"]
-#
-# Çoklu değerleri ayırmak için ayraç tanımlama
+# 1. URL'lerin (tıklanabilir linklerin) tanımlanması
+url-fields: "Çalışma Linki, Çalışma Yürütücüsü, Yazarı CV Link"
+
+# 2. Tıklanınca filtreleme yapacak alanların (facets) listesi
 metadata-facets-fields: "format, Kurum Ülke, Alan, Yöntem, Etiketler (Alt yöntem, dönem, dil vs)"
+
+# 3. Birden fazla değer içeren hücreler için ayraç (Örn: Metin Analizi; Ağ Analizi)
 metadata-facets-delimiter: "; "
-#
-# Tıklanabilir olmasını istediğiniz alanları buraya ekleyin
-metadata-facets-fields: "format, Kurum Ülke, Alan, Yöntem"
