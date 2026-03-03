@@ -1,11 +1,15 @@
-field,display_name,browse_link,external_link
+field,display_name,search,browse
 objectid,ID,false,false
-title,Çalışma Adı,true,false
+title,Çalışma Adı,true,
 format,Çalışma Türü,true,true
 calisma_link,Erişim Linki,false,false
 creator,Yürütücü/Yazar,true,true
 yy_link,Yazar CV,false,false
 calisma_ekibi,Çalışma Ekibi,true,true
+alan,Akademik Alan,true,true
+description,Açıklama / Konu,true,false
+yontem,Kullanılan Yöntem,true,true
+subjects,Etiketler,true,true
 kurum,Kurum,true,true
 latitude,Enlem (Lat),false,false
 longitude,Boylam (Long),false,false
@@ -17,14 +21,6 @@ durum,Son Durum,true,true
 fonlayici,Fon Sağlayanlar,true,true
 isbirligi,İş Birliği Yapılanlar,true,true
 birincil_kaynak,Kaynak/Veri Türü,true,true
-alan,Akademik Alan,true,true
-description,Açıklama / Konu,true,false
-yontem,Kullanılan Yöntem,true,true
-subjects,Etiketler,true,true
 erisim,Erişim Türü,true,true
 not,Not,true,false
-
-Etiketler (Alt yöntem, dönem, dil vs),Etiketler,true,true
-Erişim Durumu,Erişim Türü,true,true
-Açıklamalar,Açıklama,true,false
-Veriyi Giren Ad Soyad,Kayıt Sorumlusu,false,false
+veiriyi_giren,Kaydı Yapan,true,false
