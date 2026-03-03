@@ -67,11 +67,11 @@ exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md,
 sass:
   style: compressed
 #
-# 1. URL'lerin (tıklanabilir linklerin) tanımlanması
-url-fields: "Çalışma Linki, Çalışma Yürütücüsü, Yazarı CV Link"
+# 1. URL içeren sütunları tıklanabilir link yapar
+url-fields: "calisma_link, yy_link"
 
-# 2. Tıklanınca filtreleme yapacak alanların (facets) listesi
-metadata-facets-fields: "format, Kurum Ülke, Alan, Yöntem, Etiketler (Alt yöntem, dönem, dil vs)"
+# 2. Tıklanınca filtreleme yapacak ve "Browse" sayfasında sol menüye eklenecek alanlar
+metadata-facets-fields: "format, ulke_kurum, alan, yontem, subjects, fonlayici, isbirligi, durum"
 
-# 3. Birden fazla değer içeren hücreler için ayraç (Örn: Metin Analizi; Ağ Analizi)
-metadata-facets-delimiter: "; "
+# 3. Noktalı virgül ile ayırdığınız birden fazla veriyi tek tek butona dönüştürür
+metadata-facets-delimiter: ";"
