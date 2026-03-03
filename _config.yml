@@ -74,4 +74,4 @@ url-fields: "calisma_link, yy_link"
 metadata-facets-fields: "format, ulke_kurum, alan, yontem, subjects, fonlayici, isbirligi, durum"
 
 # 3. Noktalı virgül ile ayırdığınız birden fazla veriyi tek tek butona dönüştürür
-metadata-facets-delimiter: ";"
+metadata-facets-delimiter: "; "
