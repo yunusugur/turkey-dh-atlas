@@ -1,4 +1,4 @@
-field,display_name,search,browse
+field,display_name,browse_link,external_link
 objectid,ID,false,false
 title,Çalışma Adı,true,
 format,Çalışma Türü,true,true
