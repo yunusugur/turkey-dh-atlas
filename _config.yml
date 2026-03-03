@@ -71,7 +71,7 @@ sass:
 url-fields: "calisma_link, yy_link"
 
 # 2. Tıklanınca filtreleme yapacak ve "Browse" sayfasında sol menüye eklenecek alanlar
-metadata-facets-fields: "format, ulke_kurum, alan, yontem, subjects, fonlayici, isbirligi, durum"
+metadata-facets-fields: "format,ulke_kurum,alan,yontem,subjects,fonlayici,isbirligi,durum"
 
 # 3. Noktalı virgül ile ayırdığınız birden fazla veriyi tek tek butona dönüştürür
 metadata-facets-delimiter: "; "
