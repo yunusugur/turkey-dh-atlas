@@ -1,28 +1,29 @@
 field,display_name,browse_link,external_link
-objectid,Sistem ID,false,false
+objectid,ID,false,false
 title,Çalışma Adı,true,false
-creator,Yazar/Yürütücü,true,true
-date,Tarih,true,true
-description,Özet/Konu,true,false
 format,Çalışma Türü,true,true
-Çalışma Linki,Erişim Linki,false,true
-Çalışma Yürütücüsü, Yazarı,Yürütücü / Yazar,true,true
-Çalışma Yürütücüsü, Yazarı CV Link,Yazar CV,true,true
-Çalışma Ekibi İsimler (; ile ayır),Çalışma Ekibi,true,true
-Yürütücü/Yazar/Etkinlik Kurum,Kurum,true,true
+calisma_link,Erişim Linki,false,false
+creator,Yürütücü/Yazar,true,true
+yy_link,Yazar CV,false,false
+calisma_ekibi,Çalışma Ekibi,true,true
+kurum,Kurum,true,true
 latitude,Enlem (Lat),false,false
 longitude,Boylam (Long),false,false
-Kurum Ülke,Kurum Ülkesi,true,true
-Yayın Yeri Ülke,Yayın Ülkesi,true,true
-Başlangıç Yılı,Başlangıç,true,false
-Bitiş/Yayın Yılı,Bitiş/Yayın,true,true
-Çalışmanın Durumu,Durum,true,true
-Fonlayıcı Kurumlar (; ile ayır),Fon Sağlayanlar,true,true
-İş Birliği Kurumları (; ile ayır),İş Birliği Yapılanlar,true,true
-Varsa Birincil Kaynak-Veri Türü,Kaynak/Veri Türü,true,true
-Alan,Akademik Alan,true,true
-Konu,Çalışma Konusu,true,true
-Yöntem,Kullanılan Yöntem,true,true
+ulke_kurum,Kurum Ülkesi,true,true
+ulke_yayin,Yayın Ülkesi,true,true
+yil_baslangic,Başlangıç,true,true
+date,Bitiş/Yayın Yılı,true,true
+durum,Son Durum,true,true
+fonlayici,Fon Sağlayanlar,true,true
+isbirligi,İş Birliği Yapılanlar,true,true
+birincil_kaynak,Kaynak/Veri Türü,true,true
+alan,Akademik Alan,true,true
+description,Açıklama / Konu,true,false
+yontem,Kullanılan Yöntem,true,true
+subjects,Etiketler,true,true
+erisim,Erişim Türü,true,true
+not,Not,true,false
+
 Etiketler (Alt yöntem, dönem, dil vs),Etiketler,true,true
 Erişim Durumu,Erişim Türü,true,true
 Açıklamalar,Açıklama,true,false
