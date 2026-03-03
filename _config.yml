@@ -1,77 +1,38 @@
 ##########
 # collectionbuilder-gh
 # Jekyll Digital Collection Generator, designed for GitHub Pages
-# https://github.com/CollectionBuilder/collectionbuilder-gh
 ##########
 
-##########
-# URL VARIABLES [optional if using GitHub Pages!]
-#
-# url is site domain, full URL to the production location of your collection
-# on GitHub Pages follows the pattern username.github.io
-#url: https://collectionbuilder.github.io 
-# baseurl is path to location on the domain if necessary e.g. /digital/hjccc
-# on GitHub Pages it is your github repository's name prefixed with a /
-#baseurl: /collectionbuilder-gh 
-# location of code, the full url to your github repository
 source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
 
 ##########
 # SITE SETTINGS
-#
-# title of site appears in banner
 title: Turkey DH Atlas
-# tagline, a short phrase that will appear throughout the site in the top banner
 tagline: The DH Network (People, Institutions, Projects, and Publications) of Türkiye
-# description appears in meta tags and other locations
-# this description might appear in search result lists, keep around 160 characters max
 description: "Digital Humanities Projects and People in Turkey and Turkish Studies"
-# creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: Marmara University Center for DH
 
 ##########
 # COLLECTION SETTINGS
-#
-# Set the metadata for your collection (the name of the csv file in your _data directory that describes the objects in your collection) 
-# Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
 metadata: dh_atlas_metadata
+
+# Çoklu değerleri (noktalı virgül ile ayrılmış) ayrı ayrı tıklanabilir link yapmak için DOĞRU format:
 metadata-facets:
   - field: creator
-    delimiter: "; "
-
-##########
-# Site/Organization Branding 
-#   Uncomment these and enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
-#
-# organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-# organization-link: https://cdil.lib.uidaho.edu/
-# organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
-# organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
-
-##########
-# ROBOTS EXCLUDE
-#
-# set noindex to true if you do NOT want Google to index your site
-# noindex: true 
+    delimiter: ";"
+  - field: calisma_ekibi
+    delimiter: ";"
+  - field: yontem
+    delimiter: ";"
+  - field: subjects
+    delimiter: ";"
+  - field: fonlayici
+    delimiter: ";"
+  - field: isbirligi
+    delimiter: ";"
 
 ##########
 # BUILD SETTINGS 
-#
-# Note: use environment variable on build command to include analytics
-# JEKYLL_ENV=production jekyll build
-# (this is done automatically by gh-pages build)
-#
-# ignore stuff
 exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md]
-# compress CSS output
 sass:
   style: compressed
-#
-# 1. URL içeren sütunları tıklanabilir link yapar
-url-fields: "calisma_link, yy_link"
-
-# 2. Tıklanınca filtreleme yapacak ve "Browse" sayfasında sol menüye eklenecek alanlar
-metadata-facets-fields: "format,ulke_kurum,alan,yontem,subjects,fonlayici,isbirligi,durum"
-
-# 3. Noktalı virgül ile ayırdığınız birden fazla veriyi tek tek butona dönüştürür
-metadata-facets-delimiter: "; "
