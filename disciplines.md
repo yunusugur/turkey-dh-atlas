@@ -1,6 +1,6 @@
 ---
 title: Disciplines
-layout: alan
-page-type: alan
+layout: subjects
+page-type: subjects
 subject-field: alan
 ---
