@@ -1,6 +1,6 @@
 ---
 title: Methodologies
-layout: yontem
-page-type: yontem
+layout: subjects
+page-type: subjects
 subject-field: yontem
 ---
