@@ -1,9 +1,8 @@
 ##########
 # collectionbuilder-gh
-# Jekyll Digital Collection Generator, designed for GitHub Pages
 ##########
 
-source-code: https://github.com/CollectionBuilder/collectionbuilder-gh
+source-code: https://github.com/yunusugur/turkey-dh-atlas
 
 ##########
 # SITE SETTINGS
@@ -16,7 +15,6 @@ author: Marmara University Center for DH
 # COLLECTION SETTINGS
 metadata: dh_atlas_metadata
 
-# Çoklu değerleri (noktalı virgül ile ayrılmış) ayrı ayrı tıklanabilir link yapmak için DOĞRU format:
 metadata-facets:
   - field: creator
     delimiter: ";"
