@@ -3,8 +3,9 @@ Home,/
 Browse,/browse.html
 People,/subjects.html
 Map,/map.html
-Disciplines,/disciplines.html
-Methodologies,/methodologies.html
+Disciplines,/disciplines.html,,
+Methodologies,/methodologies.html,,
 Timeline,/timeline.html
 Data,/data.html
 About,/about.html
+
